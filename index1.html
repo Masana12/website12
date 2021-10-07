@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<<link rel="stylesheet" href="mystyle.css">
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+  <div class="w3-col s3">
+    <a href="#" class="w3-button w3-block w3-black">HOME</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#menu" class="w3-button w3-block w3-black">ACCESSORIES</a>
+  </div>
+  <div class="w3-col s3">
+    <a href="#where" class="w3-button w3-block w3-black">SHIPPING</a>
+  </div>
+</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+  <span class="w3-tag">Open from 9am to 4pm, Mon-Fri</span>
+</div>
+<div class="w3-display-middle w3-center">
+  <span class="w3-text-white" style="font-size:90px">My<br>Jewellery</span>
+</div>
+<div class="w3-display-bottomright w3-center w3-padding-large">
+  <span class="w3-text-white">20 Pecan street, 1685, Pretoria East</span>
+</div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+  <!-- About Container -->
+  <div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT ALLURE JEWELLERY</span></h5>
+    <p>Allure Jewellery, an online store which aims at selling affordable, trendy and accessible jewellery to people all over South Africa. The idea behind the store is to afford everyone a chance at getting fashionable jewellery without paying ridiculous amounts of money.</p>
+    <p>Our store's key mission is AFFORDABILITY. With people trying to live up to trends and keep up with them it tends to get expensive , but Allure Jewellery aims at giving people affordability without breaking their banks!</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Life isn't perfect but your jewellery can be"</i></p>
+      <p>Owned and Founded by: Masana Nephalela</p>
+    </div>
+
+    <img src="pic2.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+  <p><strong>Opening hours:</strong> Mon- Fri from 9am to 4pm.</p>
+  <p><strong>Address:</strong> 20 Pecan street, 1685, Pretoria East</p>
+</div>
+</div>
+
+<!-- ACCESSORIES Container -->
+<div class="w3-container" id="menu">
+<div class="w3-content" style="max-width:700px">
+
+  <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Accessories</span></h5>
+
+  <div class="w3-row w3-center w3-card w3-padding">
+    <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+      <div class="w3-col s6 tablink">Necklaces</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+      <div class="w3-col s6 tablink">Rings</div>
+    </a>
+  </div>
+
+  <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Gold Locket Chain</h5>
+      <p class="w3-text-grey">R180</p><br>
+
+      <h5>Silver Megan Cuban Link Chain</h5>
+      <p class="w3-text-grey">R400</p><br>
+
+      <h5>Gold Multi Charm Layered Necklace</h5>
+      <p class="w3-text-grey">R200</p><br>
+
+      <h5>Silver Fine Drop And Bar 3-Row Chain</h5>
+      <p class="w3-text-grey">R180</p><br>
+
+      <h5>Gold Plated Sterling Silver Bee Necklace </h5>
+      <p class="w3-text-grey">R250</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Gold Celestial Ring 24 Pack</h5>
+      <p class="w3-text-grey">R200</p><br>
+
+      <h5>Silver Celestial Ring 24 Pack </h5>
+      <p class="w3-text-grey">R200</p><br>
+
+      <h5>Butterfly His&Hers Pair Rings(available in Silver and Black)</h5>
+          <p class="w3-text-grey">R230</p><br>
+
+          <h5>Plastic Daisy Ring</h5>
+          <p class="w3-text-grey">R160</p><br>
+
+          <h5>Hamsa Ring</h5>
+          <p class="w3-text-grey">R250</p>
+        </div>
+        <img src="pic3.jpeg" style="width:100%;max-width:1000px;margin-top:32px;">
+      </div>
+      </div>
+
+      <!-- SHIPPING Container -->
+      <div class="w3-container" id="where" style="padding-bottom:32px;">
+      <div class="w3-content" style="max-width:700px">
+        <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">SHIPPING OPTIONS</span></h5>
+        <p>ARAMEX DOOR TO DOOR DELIVERY(2-3 WORKING DAYS) R100</p>
+        <p>PAXI(PEP) (4-7 WORKING DAYS) R60</p>
+        <p>COLLECTION @ 20 PECAN STREET, PRETORIA EAST (13:00-16:00 SAT-SUN)</p>
+
+        <img src="pic4.jpeg" class="w3-image" style="width:100%">
+
+        <p><span class="w3-tag">NB!</span>Collection of orders only allowed during weekends. NO REFUNDS ONLY EXCHANGES! Allure Jewellery will not be held liable for any damages to products once they have left the store unless the customer has received faulty or damaged jewellery.</p>
+  <p><strong>Delivery:</strong> Orders over R500 will receive free delivery. Orders are sent out every Tuesday. Customers will receive a tracking number once orders have been sent out.</p>
+  <form action="/action_page.php" target="_blank">
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Email address" required name="People"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+    <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Contact Details" required name="Message"></p>
+    <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+  </form>
+</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<p>Developed by Masana Nephalela</p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+var i, x, tablinks;
+x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < x.length; i++) {
+  tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
